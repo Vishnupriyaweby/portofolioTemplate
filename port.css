@@ -1,0 +1,108 @@
+body{
+    width:  100%;
+    height: auto;
+    align-content: space-between;
+}
+div{
+    display:flex;
+}
+.head{
+    flex-direction:row;
+    justify-content:space-between;
+    background-color: rgb(240, 240, 238);
+}
+.other-head{
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 2;
+}
+.othdin{
+    margin: 0 2px;
+    padding: 0 2px;
+}
+#letor{  
+    padding-right: 5px; 
+    align-items: center;  
+}
+#name{
+    padding-left: 5px;
+}
+
+.image img{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    justify-items: flex-end;
+    border-radius: 5px;
+}
+
+#main{
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(240, 240, 238);
+    margin-top: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: rgb(240, 240, 238);
+    box-shadow: black 0px 0px 5px;
+}
+.service{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ser{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.pro{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 5px;
+    margin: 0 5px;
+    border-radius: 50px;
+}
+.pro-img{
+    width: 100%;
+     
+    object-fit: cover;
+    border-radius: 100px;
+}
+.about{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 5px;
+    margin: 0 5px;
+    border-radius: 50px;
+    background-color:rgb(240, 240, 238) ;
+}
+.about p{
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    color: black;
+    
+}
+
+.pro-new{
+    text-decoration: none;
+    color: black;
+}
